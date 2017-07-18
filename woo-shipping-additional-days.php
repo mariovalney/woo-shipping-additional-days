@@ -77,7 +77,7 @@ if ( ! class_exists( 'WC_Shipping_Additional_Days' ) ) {
          */
         private function define_hooks() {
             // Internationalization
-            $this->add_action( 'plugins_loaded', array( $this, 'load_plugin_textdomain' ) );
+            $this->add_action( 'init', array( $this, 'load_plugin_textdomain' ), -1 );
 
             // Activation Hook
             register_activation_hook( __FILE__, array( $this, 'on_activation' ) );
@@ -169,7 +169,7 @@ if ( ! class_exists( 'WC_Shipping_Additional_Days' ) ) {
          * @access   private
          */
         public function load_plugin_textdomain() {
-            load_plugin_textdomain( WCSAD_TEXTDOMAIN, false, basename( dirname( __FILE__ ) ) . '/languages/' );
+            load_plugin_textdomain( WCSAD_TEXTDOMAIN, false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
         }
 
         /**
