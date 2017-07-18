@@ -3,8 +3,8 @@ Contributors: mariovalney
 Donate link: https://mariovalney.com
 Tags: shipping, delivery, woocommerce, woo commerce, ecommerce, e-commerce, shop, correios
 Requires at least: 4.4
-Tested up to: 4.7.4
-Stable tag: 1.0.1
+Tested up to: 4.8
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,11 +25,11 @@ With WCSAD you can sell "on demand" products:
 
 = SUPPORTED SHIPPING PLUGINS =
 
-* [WooCommerce Correios 3.2.2](https://wordpress.org/plugins/woocommerce-correios/)
+* [WooCommerce Correios 3.4.1](https://wordpress.org/plugins/woocommerce-correios/)
 
 = COMPATIBILITY =
 
-Tested with WooCommerce version 3.0.x.
+Tested with WooCommerce version 3.1.x.
 
 == Installation ==
 
@@ -58,6 +58,10 @@ Please, open a support ticket with plugin's name and link.
 
 If you are the developer, let's take a coffe :)
 
+= I'm developer, can I help with code? =
+
+Of course! You are welcomed to join us in [GitHub](https://github.com/mariovalney/woo-shipping-additional-days).
+
 == Screenshots ==
 
 1. Product configuration
@@ -72,7 +76,11 @@ If you are the developer, let's take a coffe :)
 = 1.0.1 =
 * Support to translations
 
+= 1.1.0 =
+* Fixed configurations on products
+* Tested with new version of WC and WooCommerce Correios
+
 == Upgrade Notice ==
 
-= 1.0.1 =
-It's alive! You should install the first version to start selling on demand products :)
+= 1.1.0 =
+Bug fixes and tested with new WooCommerce version!
