@@ -7,7 +7,7 @@
  * Plugin Name:       WooCommerce Shipping Additional Days
  * Plugin URI:        https://github.com/mariovalney/woocommerce-shipping-additional-days
  * Description:       Allows you to set additional days to your delivery date into Products and Shipping Classes.
- * Version:           1.1.0
+ * Version:           1.1.1
  * Author:            Mário Valney
  * Author URI:        https://mariovalney.com
  * Text Domain:       woo-shipping-additional-days

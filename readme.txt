@@ -3,8 +3,8 @@ Contributors: mariovalney
 Donate link: https://mariovalney.com
 Tags: shipping, delivery, woocommerce, woo commerce, ecommerce, e-commerce, shop, correios
 Requires at least: 4.4
-Tested up to: 4.8
-Stable tag: 1.1.0
+Tested up to: 4.9.8
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,11 +25,11 @@ With WCSAD you can sell "on demand" products:
 
 = SUPPORTED SHIPPING PLUGINS =
 
-* [WooCommerce Correios 3.4.1](https://wordpress.org/plugins/woocommerce-correios/)
+* [WooCommerce Correios 3.7.1](https://wordpress.org/plugins/woocommerce-correios/)
 
 = COMPATIBILITY =
 
-Tested with WooCommerce version 3.1.x.
+Tested up to WooCommerce version 3.5.1.
 
 == Installation ==
 
@@ -80,7 +80,11 @@ Of course! You are welcomed to join us in [GitHub](https://github.com/mariovalne
 * Fixed configurations on products
 * Tested with new version of WC and WooCommerce Correios
 
+= 1.1.1 =
+* Fixed bug when no products have Shipping Classes
+* Tested with new version of WordPress, WooCommerce and WooCommerce Correios
+
 == Upgrade Notice ==
 
-= 1.1.0 =
+= 1.1.1 =
 Bug fixes and tested with new WooCommerce version!
