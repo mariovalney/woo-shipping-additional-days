@@ -4,10 +4,10 @@
  * @package           WC_Shipping_Additional_Days
  * @since             1.0.0
  *
- * Plugin Name:       WooCommerce Shipping Additional Days
+ * Plugin Name:       Shipping Additional Days for WooCommerce
  * Plugin URI:        https://github.com/mariovalney/woocommerce-shipping-additional-days
  * Description:       Allows you to set additional days to your delivery date into Products and Shipping Classes.
- * Version:           1.1.1
+ * Version:           1.1.2
  * Author:            Mário Valney
  * Author URI:        https://mariovalney.com
  * Text Domain:       woo-shipping-additional-days
@@ -179,7 +179,7 @@ if ( ! class_exists( 'WC_Shipping_Additional_Days' ) ) {
          */
         public function run() {
             // Definitions to plugin
-            define( 'WCSAD_VERSION', '1.1.0' );
+            define( 'WCSAD_VERSION', '1.1.2' );
             define( 'WCSAD_FILE', __FILE__ );
             define( 'WCSAD_BASENAME', plugin_basename( __FILE__ ) );
             define( 'WCSAD_PATH', WP_PLUGIN_DIR . '/' . dirname( WCSAD_BASENAME ) );

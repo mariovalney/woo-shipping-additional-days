@@ -1,10 +1,10 @@
-=== WooCommerce Shipping Additional  Days ===
+=== Shipping Additional Days for WooCommerce ===
 Contributors: mariovalney
 Donate link: https://mariovalney.com
 Tags: shipping, delivery, woocommerce, woo commerce, ecommerce, e-commerce, shop, correios
 Requires at least: 4.4
-Tested up to: 4.9.8
-Stable tag: 1.1.1
+Tested up to: 5.2.2
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,7 @@ Allows you to set additional days to your delivery date into Products and Shippi
 
 == Description ==
 
-WooCommerce Shipping Additional Days allows you to set additional days to your estimated delivery date into Products and Shipping Classes.
+Shipping Additional Days for WooCommerce allows you to set additional days to your estimated delivery date into Products and Shipping Classes.
 
 = SELL FOR FUTURE =
 
@@ -38,6 +38,10 @@ Tested up to WooCommerce version 3.5.1.
 1. That's all. No configuration needed: you already can see new fields into products shipping options and shipping classes list
 
 == Frequently Asked Questions ==
+
+= Did you renamed the plugin? =
+
+Yes. Due to [this](https://make.wordpress.org/plugins/2019/08/08/trademark-enforcement/).
 
 = My stock will be managed? =
 
