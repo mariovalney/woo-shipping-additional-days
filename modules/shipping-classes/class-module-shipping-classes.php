@@ -118,12 +118,14 @@ if ( ! class_exists( 'WCSAD_Module_Shipping_Classes' ) ) {
          * @access   private
          */
         public function woocommerce_shipping_classes_save_class( $term_id, $data ) {
-            if ( ! empty( $data['additional_time'] ) ) {
-                $term_id = ( is_array( $term_id ) ) ? $term_id['term_id'] : $term_id;
-                $additional_time = wcsad_sanitize_additional_time( $data['additional_time'] );
-
-                update_term_meta( $term_id, WCSAD_SHIPPING_CLASS_ADDITIONAL_TIME, $additional_time );
+            if ( ! isset( $data['additional_time'] ) ) {
+                return;
             }
+
+            $term_id = ( is_array( $term_id ) ) ? $term_id['term_id'] : $term_id;
+            $additional_time = wcsad_sanitize_additional_time( $data['additional_time'] );
+
+            update_term_meta( $term_id, WCSAD_SHIPPING_CLASS_ADDITIONAL_TIME, $additional_time );
         }
 
         /**
