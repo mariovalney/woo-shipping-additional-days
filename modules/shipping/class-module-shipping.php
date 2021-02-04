@@ -47,9 +47,12 @@ if ( ! class_exists( 'WCSAD_Module_Shipping' ) ) {
          * @access   private
          */
         private function support_shipping_plugins() {
+            require_once plugin_dir_path( __FILE__ ) . 'includes/class-shipping-plugin.php';
             require_once plugin_dir_path( __FILE__ ) . 'includes/class-woocommerce-correios.php';
+            require_once plugin_dir_path( __FILE__ ) . 'includes/class-woocommerce-local-pickup.php';
 
-            $woocommerce_correios = new WCSAD_Woocommerce_Correios( $this->core );
+            new WCSAD_Woocommerce_Correios( $this->core );
+            new WCSAD_Woocommerce_Local_Pickup( $this->core );
         }
 
         /**
