@@ -52,9 +52,9 @@ if ( ! class_exists( 'WCSAD_Woocommerce_Local_Pickup' ) ) {
                 }
             }
 
-            $message = __( 'Available after payment', WCSAD_TEXTDOMAIN );
+            $message = __( 'Available after payment', 'woo-shipping-additional-days' );
             if ( ! empty( $total ) ) {
-                $message = sprintf( _n( 'Available in %d working day', 'Available in %d working days', $total, WCSAD_TEXTDOMAIN ), $total );
+                $message = sprintf( _n( 'Available in %d working day', 'Available in %d working days', $total, 'woo-shipping-additional-days' ), $total );
             }
 
             /**

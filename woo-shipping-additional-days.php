@@ -171,7 +171,7 @@ if ( ! class_exists( 'WC_Shipping_Additional_Days' ) ) {
          * @access   private
          */
         public function load_plugin_textdomain() {
-            load_plugin_textdomain( WCSAD_TEXTDOMAIN, false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+            load_plugin_textdomain( 'woo-shipping-additional-days', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
         }
 
         /**
@@ -187,11 +187,6 @@ if ( ! class_exists( 'WC_Shipping_Additional_Days' ) ) {
             define( 'WCSAD_PATH', WP_PLUGIN_DIR . '/' . dirname( WCSAD_BASENAME ) );
             define( 'WCSAD_DIR', dirname( WCSAD_BASENAME ) );
             define( 'WCSAD_URL', plugins_url( '', __FILE__ ) );
-
-            // Definition of text domain
-            if ( ! defined( 'WCSAD_TEXTDOMAIN' ) ) {
-                define( 'WCSAD_TEXTDOMAIN', 'woo-shipping-additional-days' );
-            }
 
             // Running Modules (first of all)
             foreach ( $this->modules as $module ) {

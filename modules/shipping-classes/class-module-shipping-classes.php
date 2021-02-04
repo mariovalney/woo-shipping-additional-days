@@ -90,7 +90,7 @@ if ( ! class_exists( 'WCSAD_Module_Shipping_Classes' ) ) {
          * @access   private
          */
         public function woocommerce_shipping_classes_columns( $columns ) {
-            $columns['wc-shipping-class-additional-time'] = __( 'Additional Days', WCSAD_TEXTDOMAIN );
+            $columns['wc-shipping-class-additional-time'] = __( 'Additional Days', 'woo-shipping-additional-days' );
             return $columns;
         }
 
