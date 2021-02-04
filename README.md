@@ -25,11 +25,19 @@ With WCSAD you can sell "on demand" products:
 
 ### SUPPORTED SHIPPING PLUGINS ###
 
+For all plugin we'll use the max value: additional days of all shipping classes and/or additional days of all products.
+
+* [WooCommerce Local Pickup](https://docs.woocommerce.com/document/local-pickup/)
+
+We will show the additional day as estimated delivery time. If no additional day is used, we'll show a message informing the product will be available after payment.
+
 * [WooCommerce Correios 3.8](https://wordpress.org/plugins/woocommerce-correios/)
+
+WooCommerce Correios has it's own additional days and estimated delivery time implementation. We'll add the max value to its delivery time: our additional days or its own implementation.
 
 ### COMPATIBILITY ###
 
-Tested up to WooCommerce version 4.3
+Tested up to WooCommerce version 4.8
 
 ## Installation ##
 
@@ -62,6 +70,10 @@ Please, open a support ticket with plugin's name and link.
 
 If you are the developer, let's take a coffe :)
 
+### I want to change the Local Pickup estimated delivery text. ###
+
+You can use the `wcsad_pickup_estimated_delivery_text` filter.
+
 ### I'm developer, can I help with code? ###
 
 Of course! You are welcomed to join us in [GitHub](https://github.com/mariovalney/woo-shipping-additional-days).
@@ -78,25 +90,35 @@ Of course! You are welcomed to join us in [GitHub](https://github.com/mariovalne
 ## Changelog ##
 
 ### 1.0.0 ###
+
 * You can add Additional Days to every product or to all products into a Shipping Class
 * Support to "WooCommerce Correios" plugin
 
 ### 1.0.1 ###
+
 * Support to translations
 
 ### 1.1.0 ###
+
 * Fixed configurations on products
 * Tested with new version of WC and WooCommerce Correios
 
 ### 1.1.1 ###
+
 * Fixed bug when no products have Shipping Classes
 * Tested with new version of WordPress, WooCommerce and WooCommerce Correios
 
 ### 1.2.0 ###
+
 * Fixed saving Shipping Classes as 0
 * Tested with new version of WordPress, WooCommerce and WooCommerce Correios
 
+### 1.3.0 ###
+
+* Added support to Local Pickup shipping method.
+* Bug fixes and tested with new version of WordPress, WooCommerce and WooCommerce Correios.
+
 ## Upgrade Notice ##
 
-### 1.1.1 ###
-Bug fixes and tested with new WooCommerce version!
+### 1.3 ###
+Bug fixes and added support to Local Pickup shipping method.
